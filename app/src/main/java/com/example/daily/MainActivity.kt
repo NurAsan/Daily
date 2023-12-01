@@ -60,12 +60,34 @@ fun WoofApp() {
     ) { it ->
         LazyColumn(contentPadding = it) {
             items(receps) {
-
+                RecepItem(
+                    recipes = it,
+                    modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
+                )
             }
         }
     }
 }
 
+@Composable
+fun RecepItem(
+    recipes: Recep,
+    modifier: Modifier = Modifier
+) {
+    var expanded by remember { mutableStateOf(false) }
+    Card(
+        modifier = Modifier
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(dimensionResource(R.dimen.padding_small))
+        ) {
+            Spacer(modifier = Modifier.weight(1f))
+        }
+
+    }
+}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TopBar(modifier: Modifier = Modifier){
