@@ -54,7 +54,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun WoofApp() {
     Scaffold(
-
+        topBar = {
+            TopBar()
+        }
     ) { it ->
         LazyColumn(contentPadding = it) {
             items(receps) {
@@ -64,3 +66,18 @@ fun WoofApp() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TopBar(modifier: Modifier = Modifier){
+    CenterAlignedTopAppBar(
+        title = {
+            Row() {
+                Text(
+                    text = stringResource(R.string.app_name),
+                    style = MaterialTheme.typography.displayLarge
+                )
+            }
+        },
+        modifier = modifier
+    )
+}
