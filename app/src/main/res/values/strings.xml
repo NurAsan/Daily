@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Daily</string>
+    <string name="top_bar">30 Days Of Recipes</string>
+    <string name="day_0">Breakfast Delights</string>
+    <string name="day_1">Quick Lunch Fixes</string>
+    <string name="day_2">Comforting Soups</string>
+    <string name="day_3">Healthy Salads</string>
+    <string name="day_4">Family-Friendly Dinners</string>
+    <string name="day_5">Vegetarian Delights</string>
+    <string name="day_6">Italian-Inspired Cuisine</string>
+
+    <string name="d_0">Day 1</string>
+    <string name="d_1">Day 2</string>
+    <string name="d_2">Day 3</string>
+    <string name="d_3">Day 4</string>
+    <string name="d_4">Day 5</string>
+    <string name="d_5">Day 6</string>
+    <string name="d_6">Day 7</string>
+
+    <string name="recipe0">Recipe: Scrambled Eggs with Spinach and Feta.Ingredients: Eggs, spinach, feta cheese, salt, pepper.</string>
+    <string name="recipe1">Recipe: Turkey Avocado Wrap.Ingredients: Turkey slices, avocado, lettuce, whole wheat wrap.</string>
+    <string name="recipe2">Recipe: Chicken Noodle Soup.Ingredients: Chicken broth, chicken, carrots, celery, noodles.</string>
+    <string name="recipe3">Recipe: Quinoa Salad with Vegetables.Ingredients: Quinoa, cherry tomatoes, cucumber, feta, olive oil.</string>
+    <string name="recipe4">Recipe: Baked Chicken Tenders with Sweet Potato Fries.Ingredients: Chicken tenders, sweet potatoes, olive oil, spices.</string>
+    <string name="recipe5">Recipe: Lentil and Vegetable Stir-Fry.Ingredients: Lentils, broccoli, bell peppers, soy sauce.</string>
+    <string name="recipe6">Recipe: Spaghetti Bolognese.Ingredients: Ground beef, tomatoes, garlic, spaghetti.</string>
+</resources>
